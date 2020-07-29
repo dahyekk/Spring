@@ -63,7 +63,7 @@
 			var userId = $(this).closest('tr').find('#hidden_userId').val();
 			//특정 사용자 조회
 			$.ajax({
-				url:'users/'+userId,
+				url:'cafestatelist/'+ 2,
 				type:'GET',
 				contentType:'application/json;charset=utf-8',
 				dataType:'json',
